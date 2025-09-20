@@ -11,7 +11,14 @@ public class Logical_Operator {
 		System.out.println("x && y : "+(x && y));
 		System.out.println("x || y : "+(x || y));
 		System.out.println("!x : "+(!x));
-
+		
+		int num = 6;
+		int num1 = 4;
+		if ((num < 2) || (++num1 < 6)){
+			System.out.println("hello");
+		}
+		System.out.println("Bye" + num1);
+		
 	}
 
 }
